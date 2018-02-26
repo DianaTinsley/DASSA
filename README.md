@@ -40,10 +40,15 @@ Input:
 The input.txt file for dassa.py looks like as follows:
 
 f11 f12 f13 f14 ... f1n t1
+
 f21 f22 f23 f24 ... f2n t2
+
 f31 f32 f33 f34 ... f3n t3
+
 .
+
 .
+
 .
 
 =============================================================
@@ -52,17 +57,23 @@ Output:
 
 - Segmentation.txt: It shows the final segmentation result. For example,
 
-'628490000.0-630390000.0','630390000.0-630560000.0','630560000.0-633760000.0',
+'628490000.0-630390000.0', '630390000.0-630560000.0', '630560000.0-633760000.0'
 
-It means DASSA detects a cut point at time 630390000.0 and 630560000.0 in the time interval 628490000.0-633760000.0
+It means DASSA detects a cut point at time 630390000.0 and 630560000.0 in the time interval [628490000.0-633760000.0]
 
 - Intermediate results:
 The following are the intermediate files of the above example:
     Xtilde.txt
+    
     BeginEndTime.txt
+    
     P_Xtilde_Y.txt
+    
     X.txt
+    
     Y.txt
+    
     Ytilde.txt
+    
     ALP_runnimgtime.txt
 
