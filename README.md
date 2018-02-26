@@ -9,16 +9,22 @@ To run DASSA do as follows,
 >> make demo  
 
 
-'make demo' will run the DASSA for toy example. You can directly run DASSA with the following command:
- 
-To run DASSA 
->> python dassa.py <data_path> <matlab path> <min window> <num of clusters> <calc mode>
+'make demo' will run the DASSA for toy example. 
+
+You can directly run DASSA with the following command:
+
+>> python dassa.py <data_path> <matlab_path> <min_window> <num_of_clusters> <calc_mode>
+
 
 <data_path> : Directory of the dataset
-<matlab path>: Directory of MATLAB in your machine
-<min window>: Minimum desired length for segmentation (i.e., s_min)
-<num of clusters>: Number of co-occurring clusters (It will be used if <calc mode> is 0)
-<calc mode>: 0/1 value. if <calc mode> is 0 DASSA directly use <num of clusters> as the number  of co-occurring clusters. Otherwise it automatically detects the best number of clusters.
+ 
+<matlab_path>: Directory of MATLAB in your machine
+
+<min_window>: Minimum desired length for segmentation (i.e., s_min)
+
+<num_of_clusters>: Number of co-occurring clusters (It will be used if <calc mode> is 0)
+
+<calc_mode>: 0/1 value. if <calc mode> is 0 DASSA directly use <num of clusters> as the number  of co-occurring clusters. Otherwise it automatically detects the best number of clusters.
 
 Example: 
     python dassa.py './data/test/' '/Applications/MATLAB_R2016a.app/bin/matlab' 172800 5 0
