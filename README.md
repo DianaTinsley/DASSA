@@ -1,10 +1,13 @@
-Authors: Liangzhe Chen, Sorour E. Amiri, and B. Aditya Prakash
-
 Paper Title: Automatic Segmentation of General Time-Stamped Data Sequences
+==========================================================================
+
+Authors: Liangzhe Chen, Sorour E. Amiri, and B. Aditya Prakash
 
 Date: March, 2018
 
+
 Usage:
+-----
 To run DASSA do as follows,
 >> make demo  
 
@@ -34,7 +37,7 @@ Example:
 =============================================================
 
 Input: 
-
+------
 - input.txt is a tab separated file. Each row represents a multidimensional observation. Each column is the value of each dimension, and the last column in each row represents the timestamp of the corresponding observation.
 
 The input.txt file for dassa.py looks like as follows:
@@ -54,6 +57,7 @@ f31 f32 f33 f34 ... f3n t3
 =============================================================
 
 Output:
+-------
 
 - Segmentation.txt: It shows the final segmentation result. For example,
 
