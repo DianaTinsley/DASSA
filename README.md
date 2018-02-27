@@ -1,4 +1,4 @@
-Paper Title: Automatic Segmentation of General Time-Stamped Data Sequences (AAAI 2018)
+Automatic Segmentation of General Time-Stamped Data Sequences (AAAI 2018)
 ==========================================================================
 
 Authors: Liangzhe Chen, Sorour E. Amiri, and B. Aditya Prakash
