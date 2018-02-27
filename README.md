@@ -11,7 +11,7 @@ Usage:
 Note: You need to set the correct MATLAB_path in the makefile (Including the MATLAB executable).
 
 - Example:
-    MATLAB_PATH = /Applications/MATLAB_R2011b.app/bin/matlab
+    MATLAB_path = '/Applications/MATLAB_R2016a.app/bin/matlab'
     
 To run DASSA do as follows,
 >> make demo  
