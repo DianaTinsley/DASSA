@@ -8,6 +8,8 @@ Date: March, 2018
 
 Usage:
 -----
+Note: You need to change the correct MATLAB_PATH in the makefile.
+
 To run DASSA do as follows,
 >> make demo  
 
