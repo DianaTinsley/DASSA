@@ -71,6 +71,7 @@ It means DASSA detects a cut point at time 630390000.0 and 630560000.0 in the ti
 
 - Intermediate results:
 The following are the intermediate files of the above example:
+
     Xtilde.txt
     
     BeginEndTime.txt
