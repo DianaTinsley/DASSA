@@ -8,7 +8,10 @@ Date: March, 2018
 
 Usage:
 -----
-Note: You need to change the correct MATLAB_path in the makefile.
+Note: You need to set the correct MATLAB_path in the makefile (Including the MATLAB executable).
+
+- Example:
+    MATLAB_PATH = /Applications/MATLAB_R2011b.app/bin/matlab #/usr/local/R2011B/bin/matlab
 
 To run DASSA do as follows,
 >> make demo  
@@ -31,7 +34,7 @@ You can directly run DASSA with the following command:
 
 - <calc_mode>: 0/1 value. if <calc mode> is 0 DASSA directly use <num of clusters> as the number  of co-occurring clusters. Otherwise it automatically detects the best number of clusters.
 
-Example: 
+- Example: 
     python dassa.py './data/test/' '/Applications/MATLAB_R2016a.app/bin/matlab' 172800 5 0
 
 
