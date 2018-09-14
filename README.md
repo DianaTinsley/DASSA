@@ -9,13 +9,19 @@ Citing
 ------
 If you find DASSA useful in your research, we ask that you cite the following paper:
 ```
-@inproceedings{DBLP:conf/aaai/ChenCP18,
-  author    = {Liangzhe Chen and Sorour E. Amiri and B. Aditya Prakash},
-  title     = {Automatic Segmentation of General Time-Stamped Data Sequences},
-  booktitle = {Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence, February 2-7, 2018, New Orleans,  Louisiana  {USA.}},
-  year      = {2018}, 
+@inproceedings{DBLP:conf/aaai/ChenAP18,
+  author    = {Liangzhe Chen and
+               Sorour E. Amiri and
+               B. Aditya Prakash},
+  title     = {Automatic Segmentation of Data Sequences},
+  booktitle = {Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence,
+               New Orleans, Louisiana, USA, February 2-7, 2018},
+  year      = {2018},
   crossref  = {DBLP:conf/aaai/2018},
-  bibsource = {dblp computer science bibliography, http://dblp.org} 
+  url       = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17300},
+  timestamp = {Thu, 03 May 2018 17:03:19 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/aaai/ChenAP18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
